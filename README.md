@@ -1,17 +1,20 @@
 # Test for git-crypt
 
-This Repo is here to evaluate git-crypt.
+This repo is here to evaluate [git-crypt](https://github.com/AGWA/git-crypt).
 
-Requirement:
+Requirements:
 
-- [ ] Linux Support
+- [ ] Linux support
 - [ ] Mac support
-- [ ] WIndows Support
-- [ ] possibiltity to use sepreate keys for certain directories.
+- [x] Windows support
+- [ ] Possibiltity to use sepreate keys for certain directories.
 
 ## Getting Started
 
 ```sh
-git clone <TBD>
+git clone git@github.com:Sirius-A/git-crypt-test.git
 
+git-crypt unlock /path/to/key
 ```
+
+
