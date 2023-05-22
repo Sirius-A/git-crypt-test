@@ -1,2 +1,2 @@
 secret-dir/** filter=git-crypt diff=git-crypt
-secretfile filter=git-crypt-admin-test-key diff=git-crypt-admin-test-key
+admin-only-dir/** filter=git-crypt-admin-test-key diff=git-crypt-admin-test-key
