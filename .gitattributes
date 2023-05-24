@@ -1,2 +1,3 @@
 secret-dir/** filter=git-crypt diff=git-crypt
+empty-dir/** filter=git-crypt diff=git-crypt
 admin-only-dir/** filter=git-crypt-admin-test-key diff=git-crypt-admin-test-key
